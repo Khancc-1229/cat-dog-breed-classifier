@@ -1,0 +1,24 @@
+# 数据（太大，不能上传GitHub）
+data/
+
+# 模型权重
+models/
+models_v1/
+archive/
+*.pt
+
+# 输出
+outputs/
+outputs_v1/
+runs/
+
+# Python
+__pycache__/
+*.pyc
+
+# 临时文件
+_tmp_*
+
+# 数据压缩包（用 GitHub Releases 上传）
+data.tar.gz
+data.tar.gz.part*
