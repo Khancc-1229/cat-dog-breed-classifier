@@ -184,6 +184,20 @@ Dogs and Cats/
 └── README.md
 ```
 
+## 📦 获取数据
+
+数据集已上传到 [GitHub Releases](https://github.com/Khancc-1229/cat-dog-breed-classifier/releases)，下载 `data.tar.gz.partaa` 和 `data.tar.gz.partab` 后：
+
+```bash
+# 合并分片
+cat data.tar.gz.partaa data.tar.gz.partab > data.tar.gz
+
+# 解压到项目根目录
+tar -xzf data.tar.gz
+```
+
+即可还原 `data/` 文件夹。
+
 ## 🚀 完整流程
 
 ```bash
