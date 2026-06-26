@@ -22,3 +22,5 @@ _tmp_*
 # 数据压缩包（用 GitHub Releases 上传）
 data.tar.gz
 data.tar.gz.part*
+yolov8_best.pt
+resnet50_best.pth

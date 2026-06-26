@@ -198,6 +198,16 @@ tar -xzf data.tar.gz
 
 即可还原 `data/` 文件夹。
 
+同时下载 `yolov8_best.pt` 和 `resnet50_best.pth`，放到 `models/` 下：
+
+```bash
+# 放置模型权重
+mkdir -p models/yolov8_cls_breeds/weights
+mv yolov8_best.pt models/yolov8_cls_breeds/weights/best.pt
+mkdir -p models/resnet50_breeds
+mv resnet50_best.pth models/resnet50_breeds/best.pth
+```
+
 ## 🚀 完整流程
 
 ```bash
